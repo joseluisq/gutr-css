@@ -1,0 +1,32 @@
+// Mixins | Gutr CSS
+
+@mixin gutr-unit-x($prop, $unit, $measure) {
+  #{$prop}-left: #{$unit}#{$measure};
+  #{$prop}-right: #{$unit}#{$measure};
+}
+
+@mixin gutr-unit-y($prop, $unit, $measure) {
+  #{$prop}-bottom: #{$unit}#{$measure};
+  #{$prop}-top: #{$unit}#{$measure};
+}
+
+@mixin gutr-units($prop, $unit, $measure, $cord: '') {
+  @if $cord == '' {
+    @include gutr-unit-x($prop, $unit, $measure);
+    @include gutr-unit-y($prop, $unit, $measure);
+  } @else {
+    @if $cord == 'x' {
+      @include gutr-unit-x($prop, $unit, $measure);
+    } @else {
+      @include gutr-unit-y($prop, $unit, $measure);
+    }
+  }
+}
+
+@mixin gutr-pad($unit, $measure, $cord: '') {
+  @include gutr-units('padding', $unit, $measure, $cord);
+}
+
+@mixin gutr-mar($unit, $measure, $cord: '') {
+  @include gutr-units('margin', $unit, $measure, $cord);
+}

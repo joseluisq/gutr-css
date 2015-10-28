@@ -1,0 +1,33 @@
+// Gutr CSS
+
+@import 'settings';
+@import 'mixins';
+
+@for $i from 1 through $gutr-limit {
+  $unit: $gutr-unit * $i;
+  $measure: $gutr-measure;
+
+  // Padding xy
+  .gutr-pad#{$i} {
+    @include gutr-pad($unit, $measure);
+  }
+
+  // Margin xy
+  .gutr-mar#{$i} {
+    @include gutr-mar($unit, $measure);
+  }
+
+  // Cords
+  @each $cord in ($gutr-cords) {
+    // Padding x or y
+    .gutr-pad-#{$cord}#{$i} {
+      @include gutr-pad($unit, $measure, $cord);
+    }
+
+    // Margin x or y
+    .gutr-mar-#{$cord}#{$i} {
+      @include gutr-mar($unit, $measure, $cord);
+    }
+
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+bower_components
+.node_history
+.sass-cache
+npm-debug.log
+**/.DS_STORE
+**/.DS_Store
+.tmp
+*#
+*~
