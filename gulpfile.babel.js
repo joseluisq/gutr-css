@@ -31,29 +31,21 @@ gulp.task('build:styles', () => {
       suffix: '.min'
     }))
     .pipe(minify())
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
+    .pipe(header(banner, { pkg }))
     .pipe(gulp.dest(paths.dest))
 })
 
 // Spin up livereload server and listen for file changes
 gulp.task('listen', () => {
   livereload.listen()
-  gulp.watch(paths.src).on('change', (file) => {
-    gulp.start('refresh')
-  })
+  gulp.watch(paths.src).on('change', () => gulp.start('refresh'))
 })
 
-// Run livereload after file change
-gulp.task('refresh', ['compile'], () => {
-  livereload.changed()
-})
+// Refresh task
+gulp.task('refresh', ['compile'], () => livereload.changed())
 
 // Compile task
-gulp.task('compile', [
-  'build:styles'
-])
+gulp.task('compile', ['build:styles'])
 
 // Watch task
 gulp.task('watch', [

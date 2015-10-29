@@ -2,9 +2,17 @@
 
 > Hackable gutters for your box model.
 
+## Install
+
+**Bower**
+
+```sh
+$ bower install gutr --save
+```
+
 ## Usage
 
-### Markup
+**Markup**
 
 ```html
 <div class="row">
@@ -25,7 +33,8 @@
   </div>
 </div>
 ```
-### Settings
+
+**Settings**
 
 Sass:
 

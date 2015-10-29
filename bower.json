@@ -1,0 +1,40 @@
+{
+  "name": "gutr",
+  "version": "0.1.0",
+  "description": "Hackable gutters for your box model",
+  "homepage": "https://github.com/joseluisq/gutr-css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joseluisq/gutr-css.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "José Luis Quintana <joseluisquintana20@gmail.com>"
+  ],
+  "main": "dist/gutr.css",
+  "moduleType": "globals",
+  "keywords": [
+    "gutter",
+    "padding",
+    "margin",
+    "css",
+    "sass",
+    "helper",
+    "box-model",
+    "hack",
+    "utility"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "gulpfile.babel.js",
+    "package.json",
+    ".gitignore",
+    ".gitattributes",
+    "test"
+  ]
+}
