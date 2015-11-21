@@ -18,7 +18,7 @@ $ bower install gutr --save
 
 ```html
 <div class="row">
-  <div class="col-md-12 pad-y1">
+  <div class="col-md-12 pad-y-1">
     pad y 1
       │ │ └── Width: 1em
       │ └──── Direction: y (top and bottom)

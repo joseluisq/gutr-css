@@ -45,10 +45,4 @@ gulp.task('listen', () => {
 gulp.task('refresh', ['compile'], () => livereload.changed());
 
 // Compile task
-gulp.task('compile', ['build:styles']);
-
-// Watch task
-gulp.task('watch', [
-  'build:styles',
-  'listen'
-]);
+gulp.task('default', ['build:styles']);

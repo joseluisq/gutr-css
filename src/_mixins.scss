@@ -1,13 +1,17 @@
 // Mixins | Gutr CSS
 
+@function measure($unit, $measure) {
+  @return #{$unit}#{$measure};
+}
+
 @mixin gutr-unit-x($prop, $unit, $measure) {
-  #{$prop}-left: #{$unit}#{$measure};
-  #{$prop}-right: #{$unit}#{$measure};
+  #{$prop}-left: measure($unit, $measure);
+  #{$prop}-right: measure($unit, $measure);
 }
 
 @mixin gutr-unit-y($prop, $unit, $measure) {
-  #{$prop}-bottom: #{$unit}#{$measure};
-  #{$prop}-top: #{$unit}#{$measure};
+  #{$prop}-bottom: measure($unit, $measure);
+  #{$prop}-top: measure($unit, $measure);
 }
 
 @mixin gutr-units($prop, $unit, $measure, $cord: '') {

@@ -8,26 +8,68 @@
   $measure: $gutr-measure;
 
   // Padding xy
-  .gutr-pad#{$i} {
+  .pad#{$i} {
     @include gutr-pad($unit, $measure);
   }
 
   // Margin xy
-  .gutr-mar#{$i} {
+  .mar#{$i} {
     @include gutr-mar($unit, $measure);
   }
 
   // Cords
   @each $cord in ($gutr-cords) {
     // Padding x or y
-    .gutr-pad-#{$cord}#{$i} {
+    .pad-#{$cord}#{$i} {
       @include gutr-pad($unit, $measure, $cord);
     }
 
     // Margin x or y
-    .gutr-mar-#{$cord}#{$i} {
+    .mar-#{$cord}#{$i} {
       @include gutr-mar($unit, $measure, $cord);
     }
+  }
 
+  // Individual
+  $value: measure($unit, $measure);
+
+  // Padding top
+  .pad-t#{$i} {
+    padding-top: $value;
+  }
+
+  // Margin top
+  .mar-t#{$i} {
+    margin-top: $value;
+  }
+
+  // Padding left
+  .pad-l#{$i} {
+    padding-left: $value;
+  }
+
+  // Margin left
+  .mar-l#{$i} {
+  margin-left: $value;
+  }
+
+  // Padding right
+  .pad-r#{$i} {
+    padding-right: $value;
+  }
+
+  // Margin right
+  .mar-r#{$i} {
+  margin-right: $value;
+  }
+
+  // Padding bottom
+  .pad-b#{$i} {
+    padding-left: $value;
+  }
+
+  // Margin bottom
+  .mar-b#{$i} {
+  margin-left: $value;
   }
 }
