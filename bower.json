@@ -1,6 +1,6 @@
 {
   "name": "gutr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hackable gutters for your box model",
   "homepage": "https://github.com/joseluisq/gutr-css",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "authors": [
-    "José Luis Quintana <joseluisquintana20@gmail.com>"
+    "José Luis Quintana <http://quintana.io>"
   ],
   "main": "dist/gutr.css",
   "moduleType": "globals",
@@ -24,9 +24,6 @@
     "hack",
     "utility"
   ],
-  "dependencies": {
-    "jquery": ">= 1.7.0"
-  },
   "ignore": [
     "**/.*",
     "node_modules",

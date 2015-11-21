@@ -1,8 +1,8 @@
 # Gutr CSS
 
-[![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/joseluisq/gutr-css)
-
 > Hackable gutters for your box model.
+
+[![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/joseluisq/gutr-css) [![devDependency Status](https://david-dm.org/quintana-dev/gutr-css/dev-status.svg?style=flat-square)](https://david-dm.org/quintana-dev/gutr-css#info=devDependencies)
 
 ## Install
 
@@ -18,18 +18,17 @@ $ bower install gutr --save
 
 ```html
 <div class="row">
-  <div class="col-md-12 gutr-pad-y1">
-    gutr-pad y 1
-          │  │ └── Width: 1em
-          │  └──── Direction: y (top, bottom)
-          └─────── Type: padding
+  <div class="col-md-12 pad-y1">
+    pad y 1
+      │ │ └── Width: 1em
+      │ └──── Direction: y (top and bottom)
+      └────── Type: padding
 
-    <div class="my-wrapper gutr-mar2">
-      gutr-mar 2
-            │  └── Width: 2em
-            └───── Type: margin
-
-            Direction: x,y (default)
+    <div class="my-wrapper mar2">
+      mar 2
+        │ └── Width: 2em
+        └──── Type: margin
+              Direction: x and y (by default)
     </div>
 
   </div>
