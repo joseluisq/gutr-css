@@ -2,7 +2,7 @@
 
 > Hackable gutters for your box model.
 
-[![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/joseluisq/gutr-css) [![devDependency Status](https://david-dm.org/quintana-dev/gutr-css/dev-status.svg?style=flat-square)](https://david-dm.org/quintana-dev/gutr-css#info=devDependencies)
+[![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/quintana-dev/gutr-css) [![devDependency Status](https://david-dm.org/quintana-dev/gutr-css/dev-status.svg?style=flat-square)](https://david-dm.org/quintana-dev/gutr-css#info=devDependencies)
 
 ## Install
 
@@ -51,10 +51,10 @@ $gutr-cords: ('x', 'y') !default;
 For more helper classes check out [gutr.css](dist/gutr.css) file.
 
 ## Contributions
-If you would like to contribute [pull requests](https://github.com/joseluisq/gutr-css/pulls) and [issues](https://github.com/joseluisq/gutr-css/issues) will be welcome! Feature requests are welcome. Please before sending some feature requests make sure provide as much detail and context as possible.
+If you would like to contribute [pull requests](https://github.com/quintana-dev/gutr-css/pulls) and [issues](https://github.com/quintana-dev/gutr-css/issues) will be welcome! Feature requests are welcome. Please before sending some feature requests make sure provide as much detail and context as possible.
 
 ## History
-Check out [releases changelog](https://github.com/joseluisq/gutr-css/releases).
+Check out [releases changelog](https://github.com/quintana-dev/gutr-css/releases).
 
 ## License
 MIT license
