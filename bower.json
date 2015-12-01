@@ -2,10 +2,10 @@
   "name": "gutr",
   "version": "0.3.0",
   "description": "Hackable gutters for your box model",
-  "homepage": "https://github.com/joseluisq/gutr-css",
+  "homepage": "https://github.com/quintana-dev/gutr-css",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joseluisq/gutr-css.git"
+    "url": "git://github.com/quintana-dev/gutr-css.git"
   },
   "license": "MIT",
   "authors": [
