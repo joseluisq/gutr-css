@@ -50,7 +50,7 @@
 
   // Margin left
   .mar-l#{$i} {
-  margin-left: $value;
+    margin-left: $value;
   }
 
   // Padding right
@@ -60,16 +60,16 @@
 
   // Margin right
   .mar-r#{$i} {
-  margin-right: $value;
+    margin-right: $value;
   }
 
   // Padding bottom
   .pad-b#{$i} {
-    padding-left: $value;
+    padding-bottom: $value;
   }
 
   // Margin bottom
   .mar-b#{$i} {
-  margin-left: $value;
+    margin-bottom: $value;
   }
 }
