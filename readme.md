@@ -1,6 +1,6 @@
-# Gutr CSS
+# Gutr CSS [![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/joseluisq/gutr-css) [![devDependency Status](https://david-dm.org/joseluisq/gutr-css/dev-status.svg?style=flat-square)](https://david-dm.org/joseluisq/gutr-css#info=devDependencies)
 
-> Hackable gutters for your box model.  [![Bower](https://img.shields.io/bower/v/gutr.svg?style=flat-square)](https://github.com/joseluisq/gutr-css) [![devDependency Status](https://david-dm.org/joseluisq/gutr-css/dev-status.svg?style=flat-square)](https://david-dm.org/joseluisq/gutr-css#info=devDependencies)
+> Hackable gutters for your box model.
 
 ## Install
 
