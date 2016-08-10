@@ -26,7 +26,7 @@
   "devDependencies": {
     "babel-core": "^6.2.1",
     "gulp": "^3.9.0",
-    "gulp-header": "1.7.1",
+    "gulp-header": "1.8.8",
     "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.1",
     "gulp-plumber": "^1.0.1",
